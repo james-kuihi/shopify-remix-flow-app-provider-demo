@@ -1,0 +1,19 @@
+[[extensions]]
+name = "place-bid"
+type = "flow_action"
+handle = "place-bid"
+description = "Your description"
+config_page_preview_url = "https://example.com/flow/preview"
+# config_page_url = "https://example.com/flow/config-no-app-provider"
+config_page_url = "https://example.com/flow/config-app-provider"
+runtime_url = "https://example.com/flow/execute"
+validation_url = "https://example.com/flow/validate"
+
+[settings]
+
+  [[settings.fields]]
+  type = "single_line_text_field"
+  key = "your-field-key"
+  name = "Display name"
+  description = "A description of my field"
+  required = true
